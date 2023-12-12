@@ -1,0 +1,397 @@
+Assignment 2 
+Allcode
+------------------------------- Question 1.------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+    <b> This text will be bolded. </b>
+    </p>
+    <p>
+    <i> This text will be italic. </i>
+    </p>
+    <p>
+    <ins> This text will be underlined</ins>
+    </p>
+    <mark> This text will be highlighted </mark>
+    <p>
+    This is normal text<sup> This will be super scripted </sup> This is normal
+    again
+    </p>
+    <p>This is normal text <sub> This text will be subscripted </sub></p>
+    <p>Normal Text <small> Smal Text </small></p>
+    <p><del> This text will be deleted</del></p>
+    </body>
+</html>
+------------------------------question 2---------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Navigate Me:</h1>
+        <p>
+        Take me to
+        <a href="https://pwskills.com/" target="_blank">PW Skills</a> to buy a
+        course.
+        </p>
+        <p>
+        Take me to
+        <a href="https://developer.mozilla.org/en-US/" target="_blank"
+        >MDN docs</a
+        >
+        to know more about Web Development.
+        </p>
+        <p>
+        Take me to
+        <a href="https://lab.pwskills.com/" target="_blank">PW Skills Lab</a> to
+        practice live coding.
+        </p>
+        </body>
+</html>
+
+--------------------------------question3-------------------------------------
+*home.html*
+<title>Web Design</title> 
+</head> 
+<body> 
+  <div> 
+    <a href="home.html">Home</a> | 
+    <a href="webDevelopment.html">Web Development</a> | 
+    <a href="webDesign.html">Web Design</a> 
+  </div> 
+  <div> 
+    <h1>RAM PARAB</h1> 
+    <p> 
+        "Welcome to my website , where innovation meets simplicity. Our intuitive design ensures
+ easy navigation, while personalized recommendations cater to your interests. Stay connected with the latest 
+updates through social media and newsletters. Trust in our commitment to security.
+        
+        Start your journey of discovery at my website today."
+    </p> 
+  </div> 
+</body> 
+
+*webDesign.html*
+<title>Web Design</title> 
+  </head> 
+  <body> 
+    <div> 
+      <a href="home.html">Home</a> | 
+      <a href="webDevelopment.html">Web Development</a> | 
+      <a href="webDesign.html">Web Design</a> 
+    </div>
+    <div> 
+      <h1>Web Design.</h1> 
+      <p> 
+        "Immerse your brand in stunning aesthetics with our professional web design services.
+ We specialize in creating visually captivating websites that leave a lasting impression. 
+Our designs seamlessly blend creativity with user-centric functionality, ensuring an engaging and
+ memorable user experience. From concept sketches to pixel-perfect layouts, we bring your vision to life.
+Elevate your online presence with our meticulous approach to web design."        <br /> 
+ Web designers use various tools and technologies to create visually appealing and user-friendly websites. 
+These tools include graphic design   software such as Adobe Photoshop, Adobe Illustrator, Sketch, and Figma.         
+They also use programming languages like HTML, CSS, and JavaScript to bring their designs to life on the web. 
+      </p> 
+    </div> 
+  </body
+
+*webDevelopment.html*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=    , initial-scale=1.0">
+    <title>Web Development</title>
+    <body> 
+      <div> 
+        <a href="home.html">Home</a> | 
+        <a href="webDevelopment.html">Web Development</a> | 
+        <a href="webDesign.html">Web Design</a> 
+      </div>
+          <div> 
+            <h1>Web Development</h1> 
+            <p> 
+              "Elevate your online presence with our expert web development services. 
+               We craft sleek and responsive websites tailored to your unique needs. 
+               Our team combines cutting-edge technology with creative design for a standout digital experience. 
+               From concept to launch, we prioritize functionality, user experience, and scalability. 
+              Transform your vision into a dynamic online reality with our web development expertise."
+            </p>
+          </div> 
+        </body> 
+      
+    </body>
+</head>
+<body>
+    
+</body>
+</html>
+
+-----------------------------Question 4----------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body> 
+        <h1>List of Tags.</h1> 
+        <ol> 
+          <li>h1: Defines a heading level 1.</li> 
+          <li>p: Defines a paragraph of text.</li> 
+          <li>div: Defines a container for HTML elements.</li> 
+          <li>table: Defines a table with rows and columns.</li> 
+          <li>ul: Defines an unordered list.</li> 
+        </ol> 
+      </body> 
+</html>
+
+----------------------------Question 5-----------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Full Stack Web Development Tech Stack:</h1> 
+    <dl> 
+      <dt>HTML</dt> 
+      <dd> 
+        HyperText Markup Language is the standard markup language for creating web pages and other online documents. 
+      </dd> 
+      <dt>CSS</dt> 
+      <dd> 
+        Cascading Style Sheets is a style sheet language used for describing the  presentation of a document written in HTML or XML. 
+      </dd> 
+      <dt>JavaScript</dt> 
+      <dd> 
+        JavaScript is a programming language used to create interactive effects     within web browsers. 
+      </dd> 
+      <dt>Node.js</dt> 
+      <dd> 
+        Node.js is an open-source, cross-platform, JavaScript runtime  environment that executes JavaScript code outside of a browser.       </dd> 
+      <dt>Express.js</dt> 
+      <dd> 
+        Express.js is a web application framework for Node.js designed for  building web applications and APIs. 
+      </dd> 
+      <dt>MongoDB</dt> 
+      <dd> 
+        MongoDB is a NoSQL document-oriented database program that uses JSON-like documents with optional schemas. 
+      </dd> 
+      <dt>React.js</dt> 
+      <dd> 
+        React.js is a JavaScript library for building user interfaces or UI  components. 
+      </dd> 
+    </dl> 
+  </body> 
+
+
+</html>
+
+------------------------------question 6------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body> 
+        <ol> 
+          <li> 
+            <h2>HTML</h2> 
+            <table border="1"> 
+              <tr> 
+                <th>Primary Use Cases</th> 
+                <th>Key Features/Benefits</th> 
+              </tr> 
+              <tr> 
+                <td>Building the structure of web pages</td> 
+                <td> 
+                  <ul> 
+                    <li>Simple and easy to learn</li> 
+                    <li>Compatible with all web browsers</li> 
+                    <li>Allows for semantic markup</li> 
+                  </ul> 
+                </td> 
+              </tr> 
+            </table> 
+          </li> 
+          <li> 
+            <h2>CSS</h2> 
+            <table border="1"> 
+              <tr> 
+                <th>Primary Use Cases</th> 
+                <th>Key Features/Benefits</th> 
+              </tr> 
+              <tr> 
+                <td>Styling and layout of web pages</td> 
+                <td> 
+                    <ul> 
+                        <li>Allows for separation of content and presentation</li>               <li>Enables responsive design</li> 
+                        <li>Offers a wide range of styling options</li>             </ul> 
+                    </td> 
+                  </tr> 
+                </table> 
+              </li> 
+              <li> 
+                <h2>JavaScript</h2> 
+                <table border="1"> 
+                  <tr> 
+                    <th>Primary Use Cases</th> 
+                    <th>Key Features/Benefits</th> 
+                  </tr> 
+                  <tr> 
+                    <td>Adding interactivity and functionality to web pages</td>           
+                    <td> 
+                      <ul> 
+                        <li>Can manipulate and modify web page content in real-time</li>               
+                        <li> 
+                          Offers a wide range of functionality through libraries and frameworks 
+                        </li> 
+                        <li>Allows for server-side scripting with Node.js</li>             
+                    </ul> 
+                    </td> 
+                  </tr> 
+                </table> 
+              </li> 
+            </ol> 
+          </body>
+</body>
+</html>
+------------------------------question 7---------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Table of Contents</h1> 
+    <ul> 
+        <li><a href="#">Part 1: Introduction</a></li> 
+        <li><a href="#">Part 2: Getting Started</a> 
+            <ul> 
+                <li><a href="#">2.1 Installing the Software</a></li> 
+                <li><a href="#">2.2 Creating a New Project</a> 
+                    <ul> 
+                        <li><a href="#">2.2.1 Project Templates</a></li>                         
+                        <li><a href="#">2.2.2 Customizing Settings</a></li>                     
+                    </ul> 
+                </li> 
+                <li><a href="#">2.3 Exploring the Interface</a> 
+                    <ul> 
+                        <li><a href="#">2.3.1 Toolbar Features</a></li>                         
+                        <li><a href="#">2.3.2 Panel Layout</a> 
+                            <ul> 
+                                <li><a href="#">2.3.2.1 Docking Panels</a></li>                                
+                                <li><a href="#">2.3.2.2 Tabbed Interface</a></li>                             
+                            </ul> 
+                        </li> 
+                    </ul> 
+                </li> 
+            </ul> 
+        </li> 
+        <li><a href="#">Part 3: Advanced Topics</a> 
+            <ul> 
+                <li><a href="#">3.1 Working with Plugins</a> 
+                    <ul> 
+                        <li><a href="#">3.1.1 Installing Plugins</a></li> 
+                        <li><a href="#">3.1.2 Plugin Configuration</a></li>                     
+                    </ul> 
+                </li> 
+                <li><a href="#">3.2 Customizing the UI</a> 
+                    <ul> 
+                        <li><a href="#">3.2.1 Changing Themes</a></li>                         
+                        <li><a href="#">3.2.2 Configuring Shortcuts</a></li>                    
+                    </ul> 
+                </li> 
+                <li><a href="#">3.3 Optimizing Performance</a> 
+                    <ul> 
+                        <li><a href="#">3.3.1 Caching Strategies</a></li>                          
+                        <li><a href="#">3.3.2 Resource Minification</a></li>                     
+                    </ul> 
+
+                </li>             
+            </ul>         
+        </li> 
+<li><a href="#">Part 7: Conclusion</a></li>     </ul> 
+</body> 
+</html>
+
+--------------------------------question 8-------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <h1>Conference Schedule</h1> 
+    <table border="1" cellpadding="10"> 
+        <thead> 
+            <tr> 
+                <th>Time</th> 
+                <th>Room 1</th> 
+                <th>Room 2</th> 
+                <th>Room 3</th> 
+                <th>Room 4</th> 
+            </tr> 
+        </thead> 
+        <tbody> 
+            <tr> 
+                <td rowspan="3">9:00 AM - 10:00 AM</td> 
+                <td rowspan="2">Keynote</td> 
+                <td>Session A</td> 
+                <td>Session B</td> 
+                <td rowspan="3">Session C</td> 
+            </tr> 
+            <tr> 
+                <td>Session D</td> 
+                <td>Session E</td> 
+            </tr> 
+            <tr> 
+                <td>10:30 AM - 11:30 AM</td> 
+                <td colspan="2">Session F</td> 
+            </tr> 
+            <tr> 
+                <td>12:00 PM - 1:00 PM</td> 
+                <td colspan="4">Lunch Break</td> 
+            </tr> 
+            <tr> 
+                <td rowspan="2">1:00 PM - 2:00 PM</td> 
+                <td>Session G</td> 
+                <td rowspan="2">Session H</td> 
+                <td>Session I</td> 
+                <td>Session J</td> 
+            </tr> 
+            <tr> 
+                <td>Session K</td> 
+                <td>Session L</td> 
+                <td>Session M</td> 
+            </tr> 
+        </tbody> 
+
+    </table> </body> 
+
+</html>
+                               
