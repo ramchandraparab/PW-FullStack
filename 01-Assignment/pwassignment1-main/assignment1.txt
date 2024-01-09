@@ -1,0 +1,114 @@
+Question 1.Write a simple program in HTML that displays the heading “HTML defines the content and structure of your website” on the web browser?
+
+Solution-
+code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Html defines the content and structure of your website</h1>
+</body>
+</html>
+ 
+Question 2 .Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document.
+
+Solution:
+Comments in html is use for give information about code and it helps for other developer and user for understanding the code.
+comment are ignored by browser and we use comment for making notes ,explain some line of code 
+
+Example of comment:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- This is a comment explaining the purpose of the following section -->
+<h1>Welcome to My Website</h1>
+
+<p>This is a paragraph of text on my webpage.</p>
+
+<!-- Uncomment the following line to disable the image -->
+<!-- <img src="example.jpg" alt="An example image"> -->
+
+<p>More text goes here.</p>
+
+</body>
+</html>
+
+Thats how you can use comments 
+For comment out the line  use <!-- your comment →
+
+
+Question 3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line, and a line break.
+Arrange these elements to create a simple web page layout.
+
+Solution:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+</head>
+<body>
+
+    <h1>Welcome to My Simple Web Page</h1>
+
+    <p>This is a paragraph of text on my simple webpage. It contains some information that you might find interesting.</p>
+
+    <hr>
+
+    <p>Here is a new paragraph. The horizontal line above separates the content, and now I'll add a line break below:</p>
+
+    <br>
+
+    <p>This paragraph is below the line break, creating some space between the previous content and this one.</p>
+
+</body>
+</html>
+
+
+
+
+Question 4. Write a short note on Tag and element with an example.
+answer:
+Tag- tag is a fundamental component used to define and structure content within a document.
+Tags are composed of angle brackets (< and >) and typically come in pairs: an opening tag and a closing tag. 
+The opening tag marks the beginning of an element, and the closing tag marks the end. 
+The content placed between the opening and closing tags defines the element's content.
+Element- element is a complete set of tags along with the content they enclose. 
+Elements represent the building blocks of an HTML document and contribute to the structure and presentation of the content on a webpage.
+
+Example 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag and Element Example</title>
+</head>
+<body>
+
+    <!-- The following is an example of an HTML element -->
+    <p>This is a paragraph element. It contains some text.</p>
+
+    <!-- Another example with an anchor (link) element -->
+    <a href="https://www.example.com">Visit Example.com</a>
+
+</body>
+</html>
+
+
+Question 5. What is the DOCTYPE Declaration in HTML?
+
+Answer:
+DOCTYPE, is an instruction in an HTML document that specifies the version of HTML or XHTML the document is written in.
+ It is placed at the very beginning of the HTML document, before the <html> tag.
+ The DOCTYPE declaration helps web browsers to correctly interpret and render the HTML document.
